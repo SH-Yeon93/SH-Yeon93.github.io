@@ -1,10 +1,10 @@
 ---
 layout: list
-title: 여행
-slug: class
+title: Jsp
+slug: Jsp
 menu: true
 submenu: false
-order: 6
+order: 5
 description: >
-
+ 
 ---
