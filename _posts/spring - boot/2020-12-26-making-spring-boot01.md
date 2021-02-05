@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "[SpringBoot] @SpringBootApplication"
-subtitle:   "@Transactional"
+subtitle:   "@SpringBootApplication"
 date: 2020-02-28 10:30 +0900
 categories: SpringBoot
 tags: githubpage
@@ -19,8 +19,8 @@ SpringBoot 에서 가장 기본적인 애노테이션이다 그 원리를 알아
 
 ```
 <dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-thymeleaf</artifactId>		
+	<groupId>org.springframework.boot</groupId>
+	<artifactId>spring-boot-starter-thymeleaf</artifactId>		
 </dependency>
 	
 <dependency>
