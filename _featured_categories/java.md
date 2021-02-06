@@ -1,7 +1,7 @@
 ---
 layout: list
-title: Jsp
-slug: Jsp
+title: JAva
+slug: Java
 menu: true
 submenu: false
 order: 5
