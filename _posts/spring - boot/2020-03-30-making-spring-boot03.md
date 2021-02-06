@@ -7,7 +7,7 @@ categories: SpringBoot
 tags: githubpage
 comments: true
 related_posts:
-      - category/_posts/study/2020-03-10-making-spring-boot02.md
+      - category/_posts/spring-boot/2020-03-10-making-spring-boot02.md
 #     - category/_posts/study/2020-12-26-making-blog-03.md
 ---
 
@@ -68,30 +68,6 @@ public void uploadFile(@RequestParam("file") List<MultipartFile> files, Redirect
 
 </body>
 </html>
-
-```
-2.webConfig 작성 
-
-boot 는 xml 이 없기때문에 인터셉터 같은 bean 같은 경우는 등록을 해주어야 합니다 그런 등록을 해주는 역활을 하는게 webConfig 입니다
-
-정확하게는 webConfig 가 아니라 상단에 @Configuration 을 등록함으로서 bean 을 자동적으로 baen - scan 범위에 들어가 있고 bean 을 등록을 합니다 
-
-
-그러면 간단하게 컨트롤러를 작성해보겠습니다 
-
-
-## 2.2 소스 (xml 예전 소스 )
-```
-<mvc:interceptors>
-		<mvc:interceptor>
-			<mvc:mapping path="/**"/>
-			<mvc:exclude-mapping path="/registerPage"/>
-			<mvc:exclude-mapping path="/loginPage"/>
-			<mvc:exclude-mapping path="/registerData"/>
-			<mvc:exclude-mapping path="/login"/>
-			<beans:bean id = "userBean" class = "com.com.interceptor.UserInteceptor"></beans:bean>
-		</mvc:interceptor>
-	</mvc:interceptors>
 
 ```
 이때 2개이상의 파일을 업로드 할때는 multiple 를 반드시 넣어주셔야 합니다 그렇지 않으면 파일을 여러개를 선택한다고 해도 1개의 파일만 넘어아게 됩니다 
