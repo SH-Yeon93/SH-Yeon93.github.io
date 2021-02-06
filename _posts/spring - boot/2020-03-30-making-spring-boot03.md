@@ -6,8 +6,8 @@ date: 2020-03-30. 18:56 +0900
 categories: SpringBoot
 tags: githubpage
 comments: true
- related_posts:
-     - category/_posts/study/2020-12-26-making-blog-02.md
+#related_posts:
+#     - category/_posts/study/2020-12-26-making-blog-02.md
 #     - category/_posts/study/2020-12-26-making-blog-03.md
 ---
 

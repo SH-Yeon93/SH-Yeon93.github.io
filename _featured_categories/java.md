@@ -1,6 +1,6 @@
 ---
 layout: list
-title: JAva
+title: Java
 slug: Java
 menu: true
 submenu: false
