@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "[spring] java 파일로 bean 설정"
-subtitle:   "spring bean"
+title:  "[spring] java 파일 기반 componentScan"
+subtitle:   "java componentScan"
 date: 2020-07-02 11:27 +0900
 categories: Spring
 tags: githubpage
